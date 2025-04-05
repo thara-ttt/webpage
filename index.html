@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+        img.fit{
+            width: 100vw;
+            height: 100vh;
+            object-fit:cover;
+         }
+         .text{
+            position: absolute;
+            top: 27%;
+            left: 26%;
+         }
+            
+         /* .text {
+             position: absolute;
+             top: 50%; 
+             left: 50%; 
+             transform: translate(-50%, -50%); 
+             text-align: center;
+             color: black; Ensure the text is visible over the image
+         } */
+        .nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            position: absolute;
+            top: 1%;
+            right:5%;
+        }
+        .nav ul li{
+            padding: 8px 7px;
+            color: black;
+            cursor: pointer;
+           
+        }
+        .nav ul li:hover {
+            background-color: white;
+            color: black;
+            transform: scale(1.1);
+        }
+        .content{
+            position: absolute;
+            top: 38%;
+            left: 38%;
+            gap: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .content h3{
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            text-align: center;
+            cursor: pointer;
+            background-color: thistle; 
+            transition: all 0.3s ease;
+        }
+        .content h3:hover{
+            background-color: white;
+            color: black;
+            transform: scale(1.1);
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+     <img class="fit" src="https://www.tajmahalinagra.com/wp-content/uploads/2024/08/Lakshadweep-visit-best-time-1536x1024.webp" alt="">
+    </div>
+    <div class="text">
+        <h1>TOUR PACKAGE FOR LAKSHADWEEP</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>HOME</li>
+            <li>SERVICE</li>
+            <li>GALLERY</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+    <div class="content">
+        <h3>PACKAGES</h3>
+        <h3>SIGN IN</h3>
+    </div>
+</body>
+</html>
